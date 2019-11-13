@@ -3,7 +3,7 @@
 
 namespace Arc92\Chapar;
 
-use Arc92\Chapar\Https\Controllers\Chapar;
+use Arc92\Chapar\Chapar;
 use Illuminate\Support\ServiceProvider;
 
 

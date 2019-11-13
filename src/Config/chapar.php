@@ -1,6 +1,6 @@
 <?php
 
-use Arc92\Chapar\Https\Controllers\Kavenegar;
+use Arc92\Chapar\Kavenegar;
 
 return [
     'kavenegar' => [

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Arc92\Chapar\Https\Controllers;
+namespace Arc92\Chapar;
 
 
 use Illuminate\Support\Facades\Config;
