@@ -7,9 +7,7 @@ namespace Arc92\Chapar;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Facade;
 
-/*
- * @method string Send()
- * */
+
 class ChaparFacade extends Facade
 {
     public static function getFacadeAccessor()

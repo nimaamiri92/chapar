@@ -13,10 +13,22 @@
     "require": {
         "kavenegar/laravel" : "*"
     },
-    "require-dev": {},
+    "require-dev": {
+        "barryvdh/laravel-ide-helper" : "*"
+    },
     "autoload": {
         "psr-4": {
             "Arc92\\Chapar\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arc92\\Chapar\\ChaparServiceProvider"
+            ],
+            "aliases": {
+                "Chapar":"Arc92\\Chapar\\ChaparFacade"
+            }
         }
     }
 }
