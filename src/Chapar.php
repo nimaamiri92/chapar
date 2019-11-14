@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Facade;
 
 
-class ChaparFacade extends Facade
+class Chapar extends Facade
 {
     public static function getFacadeAccessor()
     {

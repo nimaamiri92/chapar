@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Arc92\Chapar;
+namespace Arc92\Chapar\Providers;
 
 
 use Illuminate\Support\Facades\Config;
 use ReflectionClass;
 
-abstract class CoreSms
+abstract class Core
 {
-    protected $smsProviderObj;
+    protected $smsProvider;
     private $reflection;
 
     public function __construct()

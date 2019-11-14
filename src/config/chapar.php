@@ -1,7 +1,7 @@
 <?php
 
-use Arc92\Chapar\Ghasedak;
-use Arc92\Chapar\Kavenegar;
+use Arc92\Chapar\Providers\Ghasedak;
+use Arc92\Chapar\Providers\Kavenegar;
 
 return [
     'kavenegar' => [
