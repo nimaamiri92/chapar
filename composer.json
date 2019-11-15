@@ -26,10 +26,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arc92\\Chapar\\ChaparServiceProvider"
+                "Arc92\\Chapar\\ChaparServiceProvider",
+                "Ipecompany\\Smsirlaravel\\SmsirlaravelServiceProvider",
+                "Kavenegar\\Laravel\\ServiceProvider"
             ],
             "aliases": {
-                "Chapar":"Arc92\\Chapar\\ChaparFacade"
+                "Chapar":"Arc92\\Chapar\\ChaparFacade",
+                "Kavenegar" : "Kavenegar\\Laravel\\Facade",
+                "Smsirlaravel" : "Ipecompany\Smsirlaravel\\SmsirlaravelFacade"
             }
         }
     }
