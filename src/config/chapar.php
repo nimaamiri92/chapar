@@ -2,6 +2,7 @@
 
 use Arc92\Chapar\Providers\Ghasedak;
 use Arc92\Chapar\Providers\Kavenegar;
+use Arc92\Chapar\Providers\MeliPayamak;
 
 return [
     'kavenegar' => [
@@ -12,10 +13,18 @@ return [
         ]
     ],
     'ghasedak' => [
-        'active' => true,
+        'active' => false,
         'namespace' => Ghasedak::class,
         'credentials' => [
             'key' => 'bc79a7e229c7ebbe3fe1161c2190e3c73b26d9c37f4670a08534e3248524dbc7'
+        ]
+    ],
+    'MeliPayak' => [
+        'active' => true,
+        'namespace' => MeliPayamak::class,
+        'credentials' => [
+            'username' => '',
+            'password' => ''
         ]
     ]
 ];

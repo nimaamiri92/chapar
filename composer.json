@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "kavenegar/laravel" : "*",
-        "ghasedak/php": "dev-master"
+        "ghasedak/php": "dev-master",
+        "melipayamak/php": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper" : "*"

@@ -16,7 +16,8 @@ class Kavenegar extends Core
     public function __construct()
     {
         parent::__construct();
-        $this->smsProvider = new KavenegarApi($this->getConfigCredentials()['key']);
+        $credential = $this->getConfigCredentials()['key'];
+        $this->smsProvider = new KavenegarApi($credential);
     }
 
     public function send(string $sender, string $receiver, string $message)

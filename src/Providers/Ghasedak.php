@@ -13,7 +13,8 @@ class Ghasedak extends Core
     public function __construct()
     {
         parent::__construct();
-        $this->smsProvider = new GhasedakApi($this->getConfigCredentials()['key']);
+        $credential = $this->getConfigCredentials()['key'];
+        $this->smsProvider = new GhasedakApi($credential);
     }
 
     public function send(string $sender, string $receiver, string $message,int $sendDate = null, $checkId = null)
